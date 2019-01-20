@@ -81,31 +81,18 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!--getter setter 等注解支持  -->
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.2</version>
-			<scope>provided</scope>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
 		</dependency>
+
 
 	</dependencies>
 
 	<repositories>
-		<repository>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
 
-		<repository>
-			<id>easy-kit</id>
-			<name>Easy Kit</name>
-			<url>http://maven.zkit.org/repository/public/</url>
-		</repository>
 	</repositories>
 
 	<build>
